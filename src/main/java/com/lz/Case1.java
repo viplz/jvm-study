@@ -8,6 +8,7 @@ public class Case1 {
         int a =3;
         int b= 2;
         int c= a+ b;
+        System.out.println(c);
     }
     public Case1(){
         p = 21;
