@@ -1,7 +1,7 @@
 package com.lz;
 
 import sun.misc.Launcher;
-import sun.security.ec.CurveDB;
+//import sun.security.ec.CurveDB;
 
 import java.net.URL;
 
@@ -39,7 +39,7 @@ public class Case2 {
         for (String url:extDirs.split(";")) {
             System.out.println(url);
         }
-        ClassLoader extCL = CurveDB.class.getClassLoader();
-        System.out.println(extCL);
+//        ClassLoader extCL = CurveDB.class.getClassLoader();
+//        System.out.println(extCL);
     }
 }

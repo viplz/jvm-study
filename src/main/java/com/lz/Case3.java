@@ -1,6 +1,6 @@
 package com.lz;
 
-public class Case3 {
+class Case3 {
 
     private static int aa = 4;
 
