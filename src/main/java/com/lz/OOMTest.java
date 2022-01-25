@@ -14,13 +14,13 @@ public class OOMTest {
 
     public static void main(String[] args) {
 
-        List<byte[]> list = new ArrayList<byte[]>();
+        List<byte[]> list = new ArrayList<>();
 
-        for (int i = 0; i < 1000; i++) {
+        while (true){
             byte[] bytes = new byte[1024 * 100];
             list.add(bytes);
             try {
-                Thread.sleep(60);
+                Thread.sleep(80);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }

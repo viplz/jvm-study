@@ -1,4 +1,4 @@
-package com.lz.classLoader;
+package com.lz.classloader;
 
 public class CustomerClassLoaderTest {
 
